@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rounded_corner"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="7dp">
+
+        <TextView
+            android:id="@+id/part_of_speech_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="noun"
+            android:textColor="@color/my_primary"
+            android:textSize="21sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:text="Definitions:"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/definitions_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1 definition \n\n 2 definition \n\n 3 definition " />
+
+        <TextView
+            android:id="@+id/synonyms_title_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:text="Synonyms :"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/synonyms_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="asdf asdf asdf asdf" />
+
+        <TextView
+            android:id="@+id/antonyms_title_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:text="Antonyms :"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/antonyms_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="asdf asdf asdf asdf" />
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>
